@@ -13,7 +13,7 @@ Further runs will be immediate, as the image will be cached locally.
 The recommended way to run this container looks like this:
 
 ```bash
-$ sudo docker run -d -p 80:80 clue/guacamole
+$ docker run -d -p 80:80 clue/guacamole
 ```
 
 The above example exposes the Guacamole webinterface on port 80, so that you can now browse to:
